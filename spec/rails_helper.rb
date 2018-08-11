@@ -40,6 +40,7 @@ RSpec.configure do |config|
   
   # add `FactoryBot` methods
   config.include FactoryBot::Syntax::Methods
+  FactoryBot.definition_file_paths << File.expand_path('../factories', __FILE__)
 
   # If you're not using ActiveRecord, or you'd prefer not to run each of your
   # examples within a transaction, remove the following line or assign false
