@@ -3,7 +3,8 @@ class Api::V1::ProductsController < ApplicationController
     before_action :authenticate_with_token!, only: [:create]
     
     def index
-        respond_with Product.all
+        products = params[:product_ids].present? ? Product.find(params[:product_ids]) : Product.all
+        respond_with products
     end
     
     def show
