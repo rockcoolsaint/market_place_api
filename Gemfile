@@ -28,6 +28,7 @@ gem 'turbolinks'
 
 #gem 'puma'
 gem 'kaminari'
+gem 'delayed_job_active_record'
 
 gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
 gem 'compass-rails', '~> 2.0.5'
