@@ -27,6 +27,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'turbolinks'
 
 #gem 'puma'
+gem 'kaminari'
 
 gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
 gem 'compass-rails', '~> 2.0.5'
